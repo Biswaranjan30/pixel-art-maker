@@ -3,11 +3,11 @@ let setColor='red'
 let canvasDiv = document.createElement('div');
 canvasDiv.className = 'canvas'
 
-for(let i=0;i<10;i++) {
+for(let i=0;i<64;i++) {
     let divContainer = document.createElement('div');
     divContainer.className = 'divContainer'
 
-    for(let j=0;j<10;j++) {
+    for(let j=0;j<64;j++) {
         let div = document.createElement('div');
         div.className = 'grid';
         div.onclick = ()=> div.style.backgroundColor =setColor;
@@ -22,7 +22,7 @@ document.body.append(canvasDiv);
 let palletDiv = document.createElement('div');
 palletDiv.className = 'pallet'
 
-let colors = ['red','blue','green'];
+let colors = ['red','blue','green','pink','violet','yellow','RosyBrown','DarkCyan','MidnightBlue','PeachPuff','Olive'];
 let colorDiv = document.createElement('div');
 colorDiv.className = 'colorDiv';
 
