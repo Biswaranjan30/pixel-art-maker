@@ -1,0 +1,36 @@
+.grid{
+    border-style: solid;
+    border-color: grey;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+}
+.divContainer{
+    display: flex;
+    flex-direction: row;
+}
+#canvas{
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color: black;
+}
+.pallet{
+
+    border-style: solid;
+    border-color: grey;
+    height: 50px;
+    width: 254px;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+.item{
+    height: 50px;
+    width : 84px;
+}
+.colorDiv{
+    display: flex;
+    flex-direction: row;
+}
